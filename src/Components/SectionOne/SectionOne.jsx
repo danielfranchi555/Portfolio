@@ -7,15 +7,18 @@ import background from '../../img/FOTO-CV-3.jpeg'
 import './SectionOne.scss'
 const SectionOne = () => (
   <div
-    className="container text-center py-5 "
+    className="container text-center  "
     style={{
       marginTop: "100px",
-      marginBottom: "200px",
       height: "auto",
       width: "auto",
     }}
   >
-    <div className="row">
+    <div className="row ">
+     <div className="col">
+      <img src={fotoCv} alt="" style={{width:'150px',borderRadius:'2rem'}} />
+     </div>
+      <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
       <div className="col-md text-center" style={{ color: "white" }}>
         <h1 className="" style={{ color: "#008B8B" }}>
           Bienvenido a mi portfolio
@@ -23,17 +26,17 @@ const SectionOne = () => (
         <div class="text-effect1 effect">
     <p>
       <span class="text-wrapper">
-        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi perferendis distinctio maxime doloribus at quaerat animi totam natus, laboriosam autem nam nulla molestias rerum explicabo placeat voluptas aut ad ab!</span>
+        <span>Front End/React Developer</span>
       </span>
     </p>
   </div>
         <div className=" d-flex container " style={{justifyContent:'center'}}>
           <div className="text-center">
-            <button className="btn btn-primary" style={{ fontSize: "12px" }}>
+            <button className="btn btn-primary" style={{ fontSize: "18px" }}>
               Contactame
             </button>
           </div>
-          <div className="d-flex ">
+          <div className="d-flex" style={{alignItems:'center'}}>
             <div>
               {" "}
               <img
@@ -61,10 +64,6 @@ const SectionOne = () => (
           </div>
         </div>
       </div>
-      <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
-         <div style={{backgroundImage: `url(${background})`,backgroundSize:'cover',backgroundPosition:'center',width:'200px',height:'300px'}}>
-
-         </div>
       </div>
     </div>
   </div>

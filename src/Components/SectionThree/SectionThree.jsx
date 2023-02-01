@@ -1,57 +1,66 @@
 import React from "react";
-
+import ecommerceImg from "../../img/ecommerce.png";
+import todoList from '../../img/todo-list.png'
+import appClima from '../../img/app-clima.png'
+import crud from '../../img/crud.png'
+import "./sectionThree.scss";
 const SectionThree = () => {
   return (
-    <div className="container" id="sectionThree" style={{ margin: "0 auto", width: "auto", marginTop:'200px'}}>
-      <h1 style={{ color: "white", width: "auto" }}>Proyectos</h1>
-      <div className="row">
- 
-        <div className="col">
-        <div class="card" >
-  <img src="..." class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Demo</a>
-  </div>
-</div>
+    <div
+      className="container text-center "
+      id="sectionThree"
+      style={{
+        marginBottom: "150px",
+        marginTop: "200px",
+      }}
+    >
+      <h1 style={{ color: "white" }}>Proyectos</h1>
+      <div className="row  row-cols-2 ">
+        <div className="col py-4 px-3 ">
+          <div class="card" style={{ width: "auto",height:'auto' }}>
+            <img src={ecommerceImg} class="card-img-top" alt="..." />
+            <div class="card-body">
+            <h5 class="card-title">Ecommerce</h5>
+              <a href="#" class="btn btn-primary">
+                demo
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="col">
-        <div class="card" >
-  <img src="..." class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Demo</a>
-  </div>
-</div>
+        <div className="col py-4 px-3 card-work ">
+          <div class="card" style={{ width: "auto",height:'auto' }}>
+            <img src={todoList} class="card-img-top" alt="..." className="border" />
+            <div class="card-body">
+            <h5 class="card-title">Todo List</h5>
+              <a href="#" class="btn btn-primary">
+                demo
+              </a>
+            </div>
+          </div>
         </div>
-
+        <div className="col py-4 px-3 card-work ">
+          <div class="card" style={{ width: "auto",height:'auto' }}>
+            <img src={appClima} class="card-img-top" alt="..." />
+            <div class="card-body">
+            <h5 class="card-title">App Weather</h5>
+              <a href="#" class="btn btn-primary">
+                demo
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col py-4 px-3 card-work ">
+          <div class="card" style={{ width: "auto",height:'auto' }}>
+            <img src={crud} class="card-img-top" alt="..." />
+            <div class="card-body">
+            <h5 class="card-title">App Weather</h5>
+              <a href="#" class="btn btn-primary">
+                demo
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="row py-5">
- 
- <div className="col">
- <div class="card" >
-<img src="..." class="card-img-top" alt="..."/>
-<div class="card-body">
-<h5 class="card-title">Card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-<a href="#" class="btn btn-primary">Demo</a>
-</div>
-</div>
- </div>
- <div className="col">
- <div class="card" >
-<img src="..." class="card-img-top" alt="..."/>
-<div class="card-body">
-<h5 class="card-title">Card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-<a href="#" class="btn btn-primary">Demo</a>
-</div>
-</div>
- </div>
-
-</div>
     </div>
   );
 };
