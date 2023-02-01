@@ -17,18 +17,18 @@ const SectionOne = () => (
   >
     <div className="row ">
      <div className="col ">
-      <div className="animate__animated animate__fadeInLeftBig " >
+      <div className="animate__animated " >
               <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'150px',borderRadius:'2rem'}} />
       </div>
      </div>
-      <div className="col-md py-2 d-flex animate__animated animate__fadeInRight" style={{alignItems:'center',justifyContent:'center'}}>
+      <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
       <div className="col-md text-center" style={{ color: "white" }}>
         <h1 className="" style={{ color: "#008B8B" }}>
           Bienvenido a mi portfolio
         </h1>
         <div class="text-effect1 effect">
     <p>
-      <div class="line">
+      <div class=" animate__animated animate__fadeInRightBig ">
         <h5 className="lineUp">Front End/React Developer</h5>
       </div>
     </p>
