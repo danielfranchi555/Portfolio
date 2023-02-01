@@ -18,7 +18,7 @@ const SectionOne = () => (
     <div className="row ">
      <div className="col ">
       <div className="animate__animated " >
-              <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'150px',borderRadius:'2rem'}} />
+              <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'190px',borderRadius:'2rem'}} />
       </div>
      </div>
       <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
