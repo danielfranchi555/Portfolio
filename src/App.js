@@ -4,6 +4,7 @@ import SectionFour from './Components/SectionFour/SectionFour';
 import SectionOne from './Components/SectionOne/SectionOne';
 import SectionThree from './Components/SectionThree/SectionThree';
 import SectionTwo from './Components/SectionTwo/SectionTwo';
+import 'animate.css';
 
 function App() {
   return (

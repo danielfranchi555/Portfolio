@@ -4,6 +4,7 @@ import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
 import twitter from "../../img/twitter.png";
 import background from '../../img/FOTO-CV-3.jpeg'
+
 import './SectionOne.scss'
 const SectionOne = () => (
   <div
@@ -15,23 +16,25 @@ const SectionOne = () => (
     }}
   >
     <div className="row ">
-     <div className="col">
-      <img src={fotoCv} alt="" style={{width:'150px',borderRadius:'2rem'}} />
+     <div className="col ">
+      <div className="animate__animated animate__fadeInLeftBig " >
+              <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'150px',borderRadius:'2rem'}} />
+      </div>
      </div>
-      <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
+      <div className="col-md py-2 d-flex animate__animated animate__fadeInRight" style={{alignItems:'center',justifyContent:'center'}}>
       <div className="col-md text-center" style={{ color: "white" }}>
         <h1 className="" style={{ color: "#008B8B" }}>
           Bienvenido a mi portfolio
         </h1>
         <div class="text-effect1 effect">
     <p>
-      <span class="text-wrapper">
-        <span>Front End/React Developer</span>
-      </span>
+      <div class="line">
+        <h5 className="lineUp">Front End/React Developer</h5>
+      </div>
     </p>
   </div>
         <div className=" d-flex container " style={{justifyContent:'center'}}>
-          <div className="text-center">
+          <div className="text-center ">
             <button className="btn btn-primary" style={{ fontSize: "18px" }}>
               Contactame
             </button>
