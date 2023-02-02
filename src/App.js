@@ -13,9 +13,9 @@ function App() {
       <div className="" style={{margin:'0 auto' ,maxWidth:'800px'}}>
  <NavBar/>
     <SectionOne/>
+    <SectionFour></SectionFour>
     <SectionThree/>
     <SectionTwo/>
-    <SectionFour></SectionFour>
       </div>
    
     <Footer></Footer>

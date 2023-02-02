@@ -2,7 +2,7 @@ import React from 'react'
 import coding from '../../img/coding.png'
 const SectionFour = () => {
   return (
-    <div className='container text-center ' id='sectionFour' style={{marginTop:'200px'}}>
+    <div className='container text-center ' id='sectionFour' style={{marginTop:'100px'}}>
     <h2 style={{color:'white',marginBottom:'30px'}}>Sobre mi</h2>
         <div className="row">
             <div className="col ">
@@ -14,7 +14,7 @@ const SectionFour = () => {
               </p>
             </div>
             <div className="col ">
-                <img src={coding} alt=""style={{width:'100px'}} />
+                <img src={coding} alt=""style={{width:'200px'}} />
             </div>
         </div>
     </div>

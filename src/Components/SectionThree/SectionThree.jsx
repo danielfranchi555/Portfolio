@@ -4,6 +4,7 @@ import todoList from '../../img/todo-list.png'
 import appClima from '../../img/app-clima.png'
 import crud from '../../img/crud.png'
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 import "./sectionThree.scss";
 const SectionThree = () => {
@@ -16,12 +17,13 @@ const SectionThree = () => {
         marginTop: "150px",
       }}
     >
-          <h1 style={{ color: "white",marginBottom:'150px' }}>Proyectos</h1>
+          <h1 style={{ color: "white",marginBottom:'50px' }}>Proyectos</h1>
      
-        <Fade left>
+
         <div className="row  row-cols-2 ">
-                   <div className="col py-4 px-3 ">
-           
+          <Zoom>
+
+         <div className="col py-4 px-3 ">
           <div class="card" style={{ width: "auto",height:'auto' }}>
             <img src={ecommerceImg} class="card-img-top" alt="..." />
             <div class="card-body">
@@ -34,7 +36,7 @@ const SectionThree = () => {
         </div>
            
       
-        <div className="col py-4 px-3  ">
+         <div className="col py-4 px-3  ">
           <div class="card" style={{ width: "auto",height:'auto' }}>
             <img src={todoList} class="card-img-top" alt="..." className="border" />
             <div class="card-body">
@@ -45,7 +47,11 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="col py-4 px-3  " style={{height:'200px'}}>
+       
+          </Zoom>
+    
+      <Zoom>
+      <div className="col py-4 px-3  " style={{height:'200px'}}>
           <div class="card" style={{ width: "auto", height:'auto' }}>
             <img src={appClima} class="card-img-top" alt="..." />
             <div class="card-body">
@@ -67,9 +73,11 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
+      </Zoom>
+         
+      
               </div>
 
-        </Fade>
        
     
     
