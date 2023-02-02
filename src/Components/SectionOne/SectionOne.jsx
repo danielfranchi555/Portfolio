@@ -17,7 +17,7 @@ const SectionOne = () => (
   >
     <div className="row ">
      <div className="col ">
-      <div className="animate__animated " >
+      <div className="animate__animated animate__backInDown" >
               <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'150px',height:'auto',borderRadius:'2rem'}} />
       </div>
      </div>
