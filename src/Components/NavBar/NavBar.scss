@@ -1,12 +1,12 @@
-.nav-item::after {
+ .nav-item::after {
     content: '';
     display: block;
     width: 0px;
     height: 2px;
     background: #f96d00;
-    transition: 0.9s
+    transition: 1s;
     
-}
-.nav-item:hover::after {
+} 
+ .nav-item:hover::after {
     width: 100%
-}
+} 

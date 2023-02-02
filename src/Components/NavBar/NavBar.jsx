@@ -1,7 +1,7 @@
 import './NavBar.scss'
 const NavBar = () => {
   return (
-    <nav className="navbar  fixed-top navbar-expand-lg  bg-body-tertiary  animate__animated animate__fadeInDown" style={{backgroundColor:'#222831'}} >
+    <nav className="navbar  fixed-top navbar-expand-lg  bg-body-tertiary  " style={{backgroundColor:'#222831'}} >
     <div className="container ">
       <a className="navbar-brand" href="#" style={{color:'#f2f2f2'}}>Daniel Franchi</a>
       <button className="navbar-toggler " style={{backgroundColor:'#f2f2f2'}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
