@@ -13,13 +13,15 @@ const SectionThree = () => {
       id="sectionThree"
       style={{
         marginBottom: "150px",
-        marginTop: "300px",
+        marginTop: "150px",
       }}
     >
-      <Fade left>
-          <h1 style={{ color: "white" }}>Proyectos</h1>
-      <div className="row  row-cols-2 ">
-        <div className="col py-4 px-3 ">
+          <h1 style={{ color: "white",marginBottom:'150px' }}>Proyectos</h1>
+     
+        <Fade left>
+        <div className="row  row-cols-2 ">
+                   <div className="col py-4 px-3 ">
+           
           <div class="card" style={{ width: "auto",height:'auto' }}>
             <img src={ecommerceImg} class="card-img-top" alt="..." />
             <div class="card-body">
@@ -30,6 +32,8 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
+           
+      
         <div className="col py-4 px-3  ">
           <div class="card" style={{ width: "auto",height:'auto' }}>
             <img src={todoList} class="card-img-top" alt="..." className="border" />
@@ -63,8 +67,11 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-      </div>
-      </Fade>
+              </div>
+
+        </Fade>
+       
+    
     
     </div>
   );

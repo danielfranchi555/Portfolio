@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 const SectionTwo = () => {
   return (
     <div className="container" id="sectionTwo" >
-      <Fade left>
+      <Fade Bottom>
           <div className="text-center" style={{}}>
              <h1 style={{color:'white'}}>Skills</h1>
         </div>

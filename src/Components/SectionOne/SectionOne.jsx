@@ -3,6 +3,8 @@ import fotoCv from "../../img/FOTO-CV-3.jpeg";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
 import twitter from "../../img/twitter.png";
+import Fade from 'react-reveal/Fade';
+
 import background from '../../img/FOTO-CV-3.jpeg'
 
 import './SectionOne.scss'
@@ -15,7 +17,8 @@ const SectionOne = () => (
       width: "auto",
     }}
   >
-    <div className="row ">
+    <Fade>
+      <div className="row ">
      <div className="col ">
       <div className="animate__animated " >
               <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'150px',height:'auto',borderRadius:'2rem'}} />
@@ -69,6 +72,8 @@ const SectionOne = () => (
       </div>
       </div>
     </div>
+    </Fade>
+    
   </div>
 );
 
