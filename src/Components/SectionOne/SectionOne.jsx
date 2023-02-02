@@ -18,12 +18,12 @@ const SectionOne = () => (
     <div className="row ">
      <div className="col ">
       <div className="animate__animated " >
-              <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'190px',borderRadius:'2rem'}} />
+              <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'150px',height:'auto',borderRadius:'2rem'}} />
       </div>
      </div>
       <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
       <div className="col-md text-center" style={{ color: "white" }}>
-        <h1 className="" style={{ color: "#008B8B" }}>
+        <h1 className="" style={{ color: "#66bfbf" }}>
           Bienvenido a mi portfolio
         </h1>
         <div class="text-effect1 effect">

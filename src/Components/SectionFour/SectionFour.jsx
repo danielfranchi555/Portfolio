@@ -5,10 +5,15 @@ const SectionFour = () => {
     <div className='container text-center ' id='sectionFour' style={{marginTop:'200px'}}>
     <h2 style={{color:'white',marginBottom:'30px'}}>Sobre mi</h2>
         <div className="row">
-            <div className="col">
-              <p style={{color:'white'}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, nobis quos. Nam aut quis ipsa, eius sed facilis natus enim quos mollitia, molestias cumque sint laborum, explicabo aliquam officiis magnam.</p>
+            <div className="col ">
+              <p style={{color:'white'}}>
+              Mi nombre es  <span style={{color:'#66bfbf'}}>Daniel Franchi</span>  desarrolador web autodidacta en busqueda de mi primer puesto como TRAINEE,
+              soy una persona proactiva , responsable y  apasionado por aprender cosas nuevas y cumplir objetivos. Con ganas de
+              poder brindar mis conocimientos en un entorno laboral y poder desarrollarme en equipo
+              
+              </p>
             </div>
-            <div className="col">
+            <div className="col ">
                 <img src={coding} alt=""style={{width:'100px'}} />
             </div>
         </div>

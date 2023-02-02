@@ -11,7 +11,7 @@ const SectionThree = () => {
       id="sectionThree"
       style={{
         marginBottom: "150px",
-        marginTop: "200px",
+        marginTop: "100px",
       }}
     >
       <h1 style={{ color: "white" }}>Proyectos</h1>
