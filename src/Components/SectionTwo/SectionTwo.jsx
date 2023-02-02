@@ -5,10 +5,13 @@ import js from '../../img/js.png'
 import react from '../../img/react.png'
 import boostrap from '../../img/bootstrap.png'
 import sass from '../../img/sass.png'
+import Fade from 'react-reveal/Fade';
+
 const SectionTwo = () => {
   return (
     <div className="container" id="sectionTwo" >
-        <div className="text-center" style={{}}>
+      <Fade left>
+          <div className="text-center" style={{}}>
              <h1 style={{color:'white'}}>Skills</h1>
         </div>
         <div className="container" style={{margin:'0 auto' , width:'auto'}}>
@@ -37,6 +40,8 @@ const SectionTwo = () => {
             <img src={sass} alt="" style={{width:'50px'}}/>
             </div> 
         </div>
+      </Fade>
+      
     </div>
   )
 };

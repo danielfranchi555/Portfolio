@@ -3,18 +3,21 @@ import ecommerceImg from "../../img/ecommerce.png";
 import todoList from '../../img/todo-list.png'
 import appClima from '../../img/app-clima.png'
 import crud from '../../img/crud.png'
+import Fade from 'react-reveal/Fade';
+
 import "./sectionThree.scss";
 const SectionThree = () => {
   return (
     <div
-      className="container text-center "
+      className="container text-center headline left"
       id="sectionThree"
       style={{
         marginBottom: "150px",
-        marginTop: "100px",
+        marginTop: "300px",
       }}
     >
-      <h1 style={{ color: "white" }}>Proyectos</h1>
+      <Fade left>
+          <h1 style={{ color: "white" }}>Proyectos</h1>
       <div className="row  row-cols-2 ">
         <div className="col py-4 px-3 ">
           <div class="card" style={{ width: "auto",height:'auto' }}>
@@ -61,6 +64,8 @@ const SectionThree = () => {
           </div>
         </div>
       </div>
+      </Fade>
+    
     </div>
   );
 };
