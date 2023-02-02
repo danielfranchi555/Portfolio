@@ -7,7 +7,7 @@ const SectionFour = () => {
         <div className="row">
             <div className="col ">
               <p style={{color:'white'}}>
-              Mi nombre es  <span style={{color:'#66bfbf'}}>Daniel Franchi</span>  desarrolador web autodidacta en busqueda de mi primer puesto como TRAINEE,
+              Mi nombre es  <span style={{color:'#f96d00'}}>Daniel Franchi</span>  desarrolador web autodidacta en busqueda de mi primer puesto como TRAINEE,
               soy una persona proactiva , responsable y  apasionado por aprender cosas nuevas y cumplir objetivos. Con ganas de
               poder brindar mis conocimientos en un entorno laboral y poder desarrollarme en equipo
               

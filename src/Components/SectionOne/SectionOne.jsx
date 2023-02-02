@@ -23,19 +23,19 @@ const SectionOne = () => (
      </div>
       <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
       <div className="col-md text-center" style={{ color: "white" }}>
-        <h1 className="" style={{ color: "#66bfbf" }}>
+        <h1 className="" style={{ color: "#f2f2f2" }}>
           Bienvenido a mi portfolio
         </h1>
         <div class="text-effect1 effect">
     <p>
       <div class=" animate__animated animate__fadeInRightBig ">
-        <h5 className="lineUp">Front End/React Developer</h5>
+        <h5 className="lineUp" style={{fontSize:'13px',color:'#f96d00'}}>Front End/React Developer</h5>
       </div>
     </p>
   </div>
         <div className=" d-flex container " style={{justifyContent:'center'}}>
           <div className="text-center ">
-            <button className="btn btn-primary" style={{ fontSize: "18px" }}>
+            <button className="btn " style={{ fontSize: "18px",backgroundColor:'#222831',color:'white' }}>
               Contactame
             </button>
           </div>

@@ -27,7 +27,7 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="col py-4 px-3 card-work ">
+        <div className="col py-4 px-3  ">
           <div class="card" style={{ width: "auto",height:'auto' }}>
             <img src={todoList} class="card-img-top" alt="..." className="border" />
             <div class="card-body">
@@ -38,8 +38,8 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="col py-4 px-3 card-work ">
-          <div class="card" style={{ width: "auto",height:'auto' }}>
+        <div className="col py-4 px-3  " style={{height:'200px'}}>
+          <div class="card" style={{ width: "auto", height:'auto' }}>
             <img src={appClima} class="card-img-top" alt="..." />
             <div class="card-body">
             <h5 class="card-title">App Weather</h5>
@@ -49,7 +49,7 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="col py-4 px-3 card-work ">
+        <div className="col py-4 px-3" style={{maxHeight:'200px'}}>
           <div class="card" style={{ width: "auto",height:'auto' }}>
             <img src={crud} class="card-img-top" alt="..." />
             <div class="card-body">
