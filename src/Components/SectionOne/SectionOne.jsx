@@ -1,11 +1,10 @@
 import React from "react";
-import fotoCv from "../../img/FOTO-CV-3.jpeg";
+import fotoCv from "../../img/foto-cv.png";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
 import twitter from "../../img/twitter.png";
 import Fade from 'react-reveal/Fade';
 
-import background from '../../img/FOTO-CV-3.jpeg'
 
 import './SectionOne.scss'
 const SectionOne = () => (
@@ -19,10 +18,10 @@ const SectionOne = () => (
   >
     <Fade>
       <div className="row ">
-     <div className="col ">
-      <div className="animate__animated " >
-              <img src={fotoCv} alt="" className="animate__backInLeft" style={{width:'150px',height:'auto',borderRadius:'2rem'}} />
-      </div>
+     <div className="col">
+      <div className="animate__animated" style={{margin:'0 auto',width:''}}>
+               <img src={fotoCv} alt="" className="img-cv" style={{width:'250px',height:'auto'}} />
+       </div>
      </div>
       <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
       <div className="col-md text-center" style={{ color: "white" }}>
@@ -38,7 +37,7 @@ const SectionOne = () => (
   </div>
         <div className=" d-flex container " style={{justifyContent:'center'}}>
           <div className="text-center ">
-            <button className="btn " style={{ fontSize: "18px",backgroundColor:'#222831',color:'white' }}>
+            <button className="btn  btn-dark" style={{ fontSize: "18px",color:'white' }}>
               Contactame
             </button>
           </div>
