@@ -1,5 +1,5 @@
 import React from "react";
-import fotoCv from "../../img/foto-cv.png";
+import fotoCv from "../../img/foto-cv.jpg";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
 import twitter from "../../img/twitter.png";
@@ -26,7 +26,7 @@ const SectionOne = () => (
       <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
       <div className="col-md text-center" style={{ color: "white" }}>
         <h1 className="" style={{ color: "#f2f2f2" }}>
-          Bienvenido a mi portfolio
+          Bienvenido/a a mi portfolio
         </h1>
         <div class="text-effect1 effect">
     <p>
