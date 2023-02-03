@@ -19,8 +19,8 @@ const SectionOne = () => (
     <Fade>
       <div className="row ">
      <div className="col">
-      <div className="animate__animated" style={{margin:'0 auto',width:''}}>
-               <img src={fotoCv} alt="" className="img-cv" style={{width:'250px',height:'auto'}} />
+      <div className="" style={{ height:'400px'}}>
+               <img src={fotoCv} alt="" className="img-cv" style={{width:'295px',height:'400px'}} />
        </div>
      </div>
       <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
@@ -31,15 +31,18 @@ const SectionOne = () => (
         <div class="text-effect1 effect">
     <p>
       <div class=" animate__animated animate__fadeInRightBig ">
-        <h5 className="lineUp" style={{fontSize:'13px',color:'#f96d00'}}>Front End/React Developer</h5>
+        <h5 className="lineUp" style={{fontSize:'13px',color:'  #ff5722'}}>Front End/React Developer</h5>
       </div>
     </p>
   </div>
         <div className=" d-flex container " style={{justifyContent:'center'}}>
           <div className="text-center ">
-            <button className="btn  btn-dark" style={{ fontSize: "18px",color:'white' }}>
+            <a href="#sectionForm">
+               <button className="btn  btn-dark" style={{ fontSize: "18px",color:'white' }}>
               Contactame
             </button>
+            </a>
+           
           </div>
           <div className="d-flex" style={{alignItems:'center'}}>
             <div>

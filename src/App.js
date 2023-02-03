@@ -7,21 +7,21 @@ import SectionTwo from './Components/SectionTwo/SectionTwo';
 import 'animate.css';
 import { Suspense,lazy } from 'react';
 import Footer from './Components/Footer/Footer';
+import SectionForm from './Components/SectionForm/SectionForm';
 
 function App() {
   return (
     <div >
-      <Suspense fallback={<h1>cargando...</h1>}>
-           <div className="" style={{margin:'0 auto' ,maxWidth:'800px'}}>
- <NavBar/>
+      
+    <div className="" style={{margin:'0 auto' ,maxWidth:'800px'}}>
+    <NavBar/>
     <SectionOne/>
-    <SectionFour ></SectionFour>
+    <SectionFour/>
     <SectionThree/>
     <SectionTwo/>
-      </div>
-   
-    <Footer></Footer>
-      </Suspense>
+    <SectionForm/>
+    </div>
+    <Footer/>
   
     </div>
   );
