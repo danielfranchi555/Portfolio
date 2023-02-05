@@ -28,7 +28,7 @@ const SectionThree = () => {
             <img src={ecommerceImg} class="card-img-top" alt="..." />
             <div class="card-body">
             <h5 class="card-title">Ecommerce</h5>
-              <a href=" https://danielfranchi555.github.io/Ecommerce-React" class="btn btn-primary">
+              <a href=" https://danielfranchi555.github.io/Ecommerce-React" class="btn btn-dark">
                 demo
               </a>
             </div>
@@ -41,7 +41,7 @@ const SectionThree = () => {
             <img src={todoList} class="card-img-top" alt="..." className="border" />
             <div class="card-body">
             <h5 class="card-title">Todo List</h5>
-              <a href="https://danielfranchi555.github.io/Todo-List" class="btn btn-primary">
+              <a href="https://danielfranchi555.github.io/Todo-List" class="btn btn-dark">
                 demo
               </a>
             </div>
@@ -56,7 +56,7 @@ const SectionThree = () => {
             <img src={appClima} class="card-img-top" alt="..." />
             <div class="card-body">
             <h5 class="card-title">App Weather</h5>
-              <a href="https://danielfranchi555.github.io/App-Weather" class="btn btn-primary">
+              <a href="https://danielfranchi555.github.io/App-Weather" class="btn btn-dark">
                 demo
               </a>
             </div>
@@ -67,7 +67,7 @@ const SectionThree = () => {
             <img src={crud} class="card-img-top" alt="..." />
             <div class="card-body">
             <h5 class="card-title">Crud React</h5>
-              <a href="https://danielfranchi555.github.io/Crud-React-" class="btn btn-primary">
+              <a href="https://danielfranchi555.github.io/Crud-React-" class="btn btn-dark">
                 demo
               </a>
             </div>

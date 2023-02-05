@@ -46,23 +46,27 @@ const SectionOne = () => (
           </div>
           <div className="d-flex" style={{alignItems:'center'}}>
             <div>
-              {" "}
-              <img
+              <a href="https://github.com/danielfranchi555">
+<img
                 src={github}
                 alt=""
                 style={{ width: "20px", margin: "5px" }}
-              />{" "}
+              />
+              </a>
+              
             </div>
             <div>
-              {" "}
-              <img
+              <a href="https://www.linkedin.com/in/daniel-franchi-409359238/">
+                  <img
                 src={linkedin}
                 alt=""
                 style={{ width: "20px", margin: "5px" }}
-              />{" "}
+              />
+              </a>
+            
             </div>
             <div>
-              {" "}
+              
               <img
                 src={twitter}
                 alt=""
