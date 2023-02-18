@@ -3,7 +3,6 @@ import ecommerceImg from "../../img/ecommerce.png";
 import todoList from '../../img/todo-list.png'
 import appClima from '../../img/app-clima.png'
 import crud from '../../img/crud.png'
-import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
 import "./sectionThree.scss";

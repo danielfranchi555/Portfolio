@@ -1,4 +1,5 @@
 import './NavBar.scss'
+import pdf from '../../img/pdf.pdf'
 const NavBar = () => {
   return (
     <nav className="navbar  fixed-top navbar-expand-lg  bg-body-tertiary  " style={{backgroundColor:' #222831'}} >
@@ -19,7 +20,9 @@ const NavBar = () => {
             <a className="nav-link " href="#sectionTwo" style={{color:'#f2f2f2'}}>Tecnologias</a>
           </li>
            <li className="py-1 px-2">
+          <a href={pdf} download="resume">
             <button className="btn" style={{backgroundColor:'   #ff5722' ,height:'35px',margin:'0 auto',color:'#f2f2f2'}}>Descargar cv</button>
+             </a>  
           </li>
         </ul>
       </div>
