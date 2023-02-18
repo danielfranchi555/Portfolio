@@ -5,7 +5,6 @@ import SectionOne from './Components/SectionOne/SectionOne';
 import SectionThree from './Components/SectionThree/SectionThree';
 import SectionTwo from './Components/SectionTwo/SectionTwo';
 import 'animate.css';
-import { Suspense,lazy } from 'react';
 import Footer from './Components/Footer/Footer';
 import SectionForm from './Components/SectionForm/SectionForm';
 

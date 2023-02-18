@@ -19,8 +19,8 @@ const SectionOne = () => (
     <Fade>
       <div className="row ">
      <div className="col">
-      <div className="" style={{ height:'400px'}}>
-               <img src={fotoCv} alt="" className="img-cv" style={{width:'250px',height:'auto'}} />
+      <div className="" style={{ height:''}}>
+               <img src={fotoCv} alt="" className="img-cv" style={{width:'200px',height:'auto'}} />
        </div>
      </div>
       <div className="col-md py-2 d-flex" style={{alignItems:'center',justifyContent:'center'}}>
