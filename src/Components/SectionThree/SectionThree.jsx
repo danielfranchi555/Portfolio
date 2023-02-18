@@ -12,7 +12,7 @@ const SectionThree = () => {
       className="container text-center headline left"
       id="sectionThree"
       style={{
-        marginBottom: "150px",
+        marginBottom: "250px",
         marginTop: "150px",
       }}
     >

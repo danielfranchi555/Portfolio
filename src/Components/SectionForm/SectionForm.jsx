@@ -1,40 +1,46 @@
 import React from 'react'
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
+import swal from 'sweetalert';
 import './sectionForm.scss'
 const SectionForm = () => {
-     const [state, handleSubmit] = useForm("xvonznby");
-    if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
-    } 
+
+const [state, handleSubmit] = useForm("xvonznby");
+ 
+  if (state.succeeded){
+    alert('thankss')
+  }
+ 
+    console.log(state)
   return (
     <div className='py-5 mt-5' id='sectionForm' >
     <div class="login-box" >
-  <h2>Login</h2>
-  <form onSubmit={handleSubmit}>
+  <h2>Contact me</h2>
+  <form onSubmit={handleSubmit} action="https://formsubmit.co/danielfranchi3@gmail.com"  method="POST">
     <div class="user-box">
       <input 
+     id="name"
+     type="text" 
+     name="name"
+     required/>
+      <label>Name</label>
+      <div class="user-box">
+      <input 
      id="email"
-     type="email" 
-     name="email"/>
-      <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
+     type="text" 
+     name="email"
+     required/>
       <label>Email</label>
     </div>
+    </div>
     <div class="user-box">
-      <input
+      <input 
      id="message"
-     name="message"/>
-        <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
-      />
+     type="text" 
+     name="message"
+     required/>
       <label>Message</label>
     </div>
-    <button type="submit" className='btn' disabled={state.submitting}>
+    <button type="submit" className='btn'>
      <a href="#" style={{textDecoration:'none'}}>
       <span></span>
       <span></span>
@@ -43,7 +49,7 @@ const SectionForm = () => {
        <p className='text-center' style={{color:'white'}}>sumbit</p>
     </a>
     </button>
- 
+   
   </form>
 </div>
     </div>
