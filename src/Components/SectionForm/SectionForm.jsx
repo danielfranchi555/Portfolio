@@ -7,8 +7,8 @@ const SectionForm = () => {
         return <p>Thanks for joining!</p>;
     } 
   return (
-    <div className='py-5 mt-5' id='sectionForm' style={{margin:'0 auto',Width:'100px'}}>
-    <div class="login-box">
+    <div className='py-5 mt-5' id='sectionForm' >
+    <div class="login-box" >
   <h2>Login</h2>
   <form onSubmit={handleSubmit}>
     <div class="user-box">
