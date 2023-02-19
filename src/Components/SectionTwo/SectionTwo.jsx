@@ -8,7 +8,7 @@ import sass from "../../img/sass.png";
 import Fade from "react-reveal/Fade";
 import git from "../../img/git.png";
 import github from "../../img/github-2.png";
-import npm from "../../img/npm.png";
+import firebase from "../../img/firebase.png";
 
 const SectionTwo = () => {
   return (
@@ -27,26 +27,26 @@ const SectionTwo = () => {
           style={{ justifyContent: "space-evenly" }}
         >
           <div>
-            <img src={html} alt="" style={{ width: "50px" }} />
+            <img src={html} alt="" style={{ width: "70px",height:'60px' }} />
           </div>
           <div>
-            <img src={css} alt="" style={{ width: "50px" }} />
+            <img src={css} alt="" style={{ width: "70px",height:'60px' }} />
           </div>
           <div>
-            <img src={js} alt="" style={{ width: "50px" }} />
+            <img src={js} alt="" style={{ width: "70px",height:'60px' }} />
           </div>
         </div>
       </Fade>
       <Fade left>
         <div className="d-flex" style={{ justifyContent: "space-evenly" }}>
           <div>
-            <img src={react} alt="" style={{ width: "50px" }} />
+            <img src={react} alt="" style={{ width: "70px",height:'60px' }} />
           </div>
           <div>
-            <img src={boostrap} alt="" style={{ width: "50px" }} />
+            <img src={boostrap} alt="" style={{ width: "70px",height:'60px' }} />
           </div>
           <div>
-            <img src={sass} alt="" style={{ width: "50px" }} />
+            <img src={sass} alt="" style={{ width: "70px",height:'60px' }} />
           </div>
         </div>
       </Fade>
@@ -54,13 +54,13 @@ const SectionTwo = () => {
 
       <div className="d-flex py-4" style={{ justifyContent: "space-evenly" }}>
         <div>
-          <img src={git} alt="" style={{ width: "50px" }} />
+          <img src={git} alt="" style={{ width: "70px",height:'60px' }} />
         </div>
         <div>
-          <img src={github} alt="" style={{ width: "50px" }} />
+          <img src={github} alt="" style={{ width: "70px",height:'60px' }} />
         </div>
         <div>
-          <img src={npm} alt="" style={{ width: "50px" }} />
+          <img src={firebase} alt="" style={{ width: "70px",height:'70px' }} />
         </div>
       </div>
       </Fade>
