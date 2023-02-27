@@ -5,6 +5,7 @@ import appClima from '../../img/app-clima.png'
 import crud from '../../img/crud.png'
 import Zoom from 'react-reveal/Zoom';
 import appMovies from '../../img/app-movies.png'
+import appFirebase from '../../img/crud-firebase.png'
 import "./sectionThree.scss";
 const SectionThree = () => {
   return (
@@ -23,7 +24,7 @@ const SectionThree = () => {
         <div className="row py-5 row-cols-2 ">
           
          <div className="col  px-3 ">
-          <div class="card" style={{ width: "auto",height:'auto' }}>
+          <div class="card" style={{ width: "auto",height:'280px' }}>
             <img src={ecommerceImg} class="card-img-top" alt="..." />
             <div class="card-body">
             <h5 class="card-title">Ecommerce</h5>
@@ -34,18 +35,18 @@ const SectionThree = () => {
           </div>
         </div>
            
-      
-         <div className="col  px-3  ">
-          <div class="card" style={{ width: "auto",height:'auto' }}>
-            <img src={todoList} class="card-img-top" alt="..." className="border" />
+        <div className="col">
+          <div class="card" style={{ width: "auto",height:'280px' }}>
+            <img src={appFirebase} class="card-img-top" alt="..."  />
             <div class="card-body">
-            <h5 class="card-title">Todo List</h5>
-              <a href="https://danielfranchi555.github.io/Todo-List" class="btn btn-dark">
+            <h5 class="card-title">Crud-Firebase</h5>
+              <a href="https://crud-firebase-azure.vercel.app/"class="btn btn-dark">
                 demo
               </a>
             </div>
-          </div>               
+          </div>
         </div>
+    
         </div>
 
 
@@ -57,9 +58,9 @@ const SectionThree = () => {
       <div className="row py-5 row-cols-2 ">
         <div className="col  px-3  " style={{height:'200px'}}>
           <div class="card" style={{ width: "auto", height:'auto' }}>
-            <img src={appClima} class="card-img-top" alt="..." />
+            <img src={appMovies} class="card-img-top" alt="..." />
             <div class="card-body">
-            <h5 class="card-title">App Weather</h5>
+            <h5 class="card-title">App-Movies</h5>
               <a href="https://danielfranchi555.github.io/App-Weather" class="btn btn-dark">
                 demo
               </a>
@@ -91,10 +92,10 @@ const SectionThree = () => {
       <div className="row  row-cols-2 ">
           <div className="col py-4 px-3 ">
           <div class="card" style={{ width: "auto",height:'auto' }}>
-            <img src={appMovies} class="card-img-top" alt="..."  />
+            <img src={appClima} class="card-img-top" alt="..."  />
             <div class="card-body">
-            <h5 class="card-title">App Movies</h5>
-              <a href="https://app-movies-co61.vercel.app/"class="btn btn-dark">
+            <h5 class="card-title">App-Clima</h5>
+              <a href="https://danielfranchi555.github.io/App-Weather/"class="btn btn-dark">
                 demo
               </a>
             </div>

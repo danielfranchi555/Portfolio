@@ -12,7 +12,7 @@ function App() {
   return (
     <div >
       
-    <div className="" style={{margin:'0 auto' ,maxWidth:'800px'}}>
+    <div className="" style={{margin:'0 auto' ,maxWidth:'900px',padding:'50px'}}>
     <NavBar/>
     <SectionOne/>
     <SectionFour/>

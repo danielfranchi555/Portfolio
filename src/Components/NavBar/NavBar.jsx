@@ -1,5 +1,5 @@
 import './NavBar.scss'
-import pdf from '../../img/pdf.pdf'
+import pdf from '../../img/TOMÁS SáNCHEZ.pdf'
 const NavBar = () => {
   return (
     <nav className="navbar  fixed-top navbar-expand-lg  bg-body-tertiary  " style={{backgroundColor:' #222831'}} >
